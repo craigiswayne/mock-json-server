@@ -48,9 +48,9 @@ app.use((req, res, next) => {
 
 // TODO custom middle ware to check for authorization header
 
-function getPagedResults(pageParams, approvedOrNot){
+function getPagedResults(collectionName, pageParams, approvedOrNot){
 
-    let allResults = fs.readJSONSync('./data/audit.json')
+    let allResults = fs.readJSONSync(`./data/${collectionName}.json`)
 
     if(approvedOrNot !== undefined){
         allResults.filter(i => i.approved === approvedOrNot);
@@ -96,18 +96,25 @@ app.get('/audit/pending', (req, res) => {
 
 })
 
-app.get('/audit', (req, res) => {
+// TODO: read files from directory
 
-    // fetch data based off page params
-    const pagedResults = getPagedResults(getPageParams(req.query));
+const collections = [
+    'audits',
+    'contracts'
+];
+collections.forEach(collectionName => {
+    app.get(`/${collectionName}`, (req, res) => {
+        // fetch data based off page params
+        const pagedResults = getPagedResults(collectionName, getPageParams(req.query));
 
-    if(pagedResults.results.length === 0){
-        return res.status(204).send();
-    }
+        if(pagedResults.results.length === 0){
+            return res.status(204).send();
+        }
 
-    res.status(200).send(pagedResults);
-
+        res.status(200).send(pagedResults);
+    })
 })
+
 
 // app.post('/audit/:id', (req, res) => {
 //     const {id} = req.params;
