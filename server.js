@@ -12,7 +12,7 @@ const middlewares = jsonServer.defaults({
  */
 server.use((req,res,next) => {
   // setTimeout(next,1000 * (Math.round(Math.random() * 5)));
-  setTimeout(next,1000 * 5);
+  setTimeout(next,1000 * 3);
 });
 
 server.use(middlewares)
