@@ -1,0 +1,125 @@
+{
+  "contracts": [
+    {
+      "id": 1,
+      "contractKey": 1,
+      "contractTypeKey": 790,
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 873,
+      "summary_BillingCurrencyKey": 295,
+      "operatorBillingKey": 456,
+      "contractCollectionKey": 107,
+      "contractGroupName": "ilgjqje",
+      "contractName": "jyiouzox",
+      "navisionCode": "hzofbwis",
+      "addressLine1": "rvqkxfxr",
+      "addressLine2": "vxobdhek",
+      "addressLine3": "jierywf",
+      "addressLine4": "kiviyivs",
+      "addressLine5": "byifblxm",
+      "addressLine6": "kyorhsjx",
+      "vaT_Number": "llwdklg",
+      "fromDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "toDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "rowIsCurrent": 1,
+      "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    }
+  ],
+  "licensees": [
+    {
+      "id": 1,
+      "name": "Licensee 1",
+      "startDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "endDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "address": {
+        "line1": "Licensee 1 Address Line 1",
+        "line2": "Licensee 1 Address Line 2",
+        "line3": "Licensee 1 Address Line 3",
+        "line4": "Licensee 1 Address Line 4",
+        "line5": "Licensee 1 Address Line 5",
+        "line6": "Licensee 1 Address Line 6",
+        "postCode": "Licensee 1 Post Code"
+      },
+      "banking": {
+        "accountName": "Licensee 1 Banking Account Name",
+        "accountNumber": "Licensee 1 Banking Account Number",
+        "swiftCode": "Licensee 1 Banking Swift Code",
+        "sortCode": "Licensee 1 Banking Sort Code",
+        "ibanNumber": "Licensee 1 Banking IBAN",
+        "accountCurrency": "Licensee 1 Banking Account Currency"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Licensee 2",
+      "startDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "endDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "address": {
+        "line1": "Licensee 2 Address Line 1",
+        "line2": "Licensee 2 Address Line 2",
+        "line3": "Licensee 2 Address Line 3",
+        "line4": "Licensee 2 Address Line 4",
+        "line5": "Licensee 2 Address Line 5",
+        "line6": "Licensee 2 Address Line 6",
+        "postCode": "Licensee 2 Post Code"
+      },
+      "banking": {
+        "accountName": "Licensee 2 Banking Account Name",
+        "accountNumber": "Licensee 2 Banking Account Number",
+        "swiftCode": "Licensee 2 Banking Swift Code",
+        "sortCode": "Licensee 2 Banking Sort Code",
+        "ibanNumber": "Licensee 2 Banking IBAN",
+        "accountCurrency": "Licensee 2 Banking Account Currency"
+      }
+    }
+  ],
+  "licensors": [
+    {
+      "id": 1,
+      "name": "Licensor 1",
+      "startDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "endDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "address": {
+        "line1": "Licensor 1 Address Line 1",
+        "line2": "Licensor 1 Address Line 2",
+        "line3": "Licensor 1 Address Line 3",
+        "line4": "Licensor 1 Address Line 4",
+        "line5": "Licensor 1 Address Line 5",
+        "line6": "Licensor 1 Address Line 6",
+        "postCode": "Licensor 1 Post Code"
+      },
+      "banking": {
+        "accountName": "Licensor 1 Banking Account Name",
+        "accountNumber": "Licensor 1 Banking Account Number",
+        "swiftCode": "Licensor 1 Banking Swift Code",
+        "sortCode": "Licensor 1 Banking Sort Code",
+        "ibanNumber": "Licensor 1 Banking IBAN",
+        "accountCurrency": "Licensor 1 Banking Account Currency"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Licensor 2",
+      "startDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "endDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "address": {
+        "line1": "Licensor 2 Address Line 1",
+        "line2": "Licensor 2 Address Line 2",
+        "line3": "Licensor 2 Address Line 3",
+        "line4": "Licensor 2 Address Line 4",
+        "line5": "Licensor 2 Address Line 5",
+        "line6": "Licensor 2 Address Line 6",
+        "postCode": "Licensor 2 Post Code"
+      },
+      "banking": {
+        "accountName": "Licensor 2 Banking Account Name",
+        "accountNumber": "Licensor 2 Banking Account Number",
+        "swiftCode": "Licensor 2 Banking Swift Code",
+        "sortCode": "Licensor 2 Banking Sort Code",
+        "ibanNumber": "Licensor 2 Banking IBAN",
+        "accountCurrency": "Licensor 2 Banking Account Currency"
+      }
+    }
+  ]
+}
