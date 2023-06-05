@@ -7,13 +7,24 @@ const middlewares = jsonServer.defaults({
 })
 
 /**
+ * Middleware
  * Force a delay on responses
  * The delay is anywhere between 0 and 5 seconds
  */
 server.use((req,res,next) => {
-  // setTimeout(next,1000 * (Math.round(Math.random() * 5)));
-  setTimeout(next,1000 * 3);
+  if(req.url === '/'){
+    next();
+    return;
+  }
+
+  // req.get('Accept')
+  // const timeInSeconds = (Math.round(Math.random() * 5));
+  // const timeInSeconds = 3;
+  const timeInSeconds = 0;
+  setTimeout(next,1000 * timeInSeconds);
 });
+
+
 
 server.use(middlewares)
 

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "start-old-2": "json-server --watch db.json --middlewares middleware.js --delay 3000",
     "start-old": "json-server --watch db.json --middlewares middleware.js",
+    "start-2": "json-server index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

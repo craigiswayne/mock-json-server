@@ -1,8 +1,40 @@
 {
   "contracts": [
     {
-      "id":4834,
-      "contractKey": 4834,
+      "id": 1,
+      "key": 1,
+      "typeName": "Progressive",
+      "typeKey": 790,
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 1,
+      "currencyKey": 1,
+      "summaryCurrencyKey": 1,
+      "operatorBillingKey": 1,
+      "collectionKey": 1,
+      "groupKey": 1,
+      "groupName": "Contract Example Group",
+      "name": "Example Contract 1",
+      "navisionCode": "NavCode1",
+      "address": {
+        "line1": "62 Circular Road",
+        "line2": "3rd Floor",
+        "line3": "Example Address Line 3",
+        "line4": "Example Address Line 4",
+        "line5": "Example Address Line 5",
+        "line6": "Example Address Line 6",
+        "postCode": "IM11AE"
+      },
+      "vatNumber": "VAT789",
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "rowIsCurrent": 1,
+      "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    },
+    {
+      "id": 2,
+      "contractKey": 2,
+      "contractTypeName": "Progressive",
       "contractTypeKey": 790,
       "licensorKey": 1,
       "licenseeKey": 2,
@@ -10,20 +42,299 @@
       "summary_BillingCurrencyKey": 295,
       "operatorBillingKey": 456,
       "contractCollectionKey": 107,
-      "contractGroupName": "Example Contract Group 1",
-      "contractName": "Example Contract 1",
-      "navisionCode": "hzofbwis",
-      "addressLine1": "rvqkxfxr",
-      "addressLine2": "vxobdhek",
-      "addressLine3": "jierywf",
-      "addressLine4": "kiviyivs",
-      "addressLine5": "byifblxm",
-      "addressLine6": "kyorhsjx",
+      "contractGroupName": "Contract Example Group",
+      "contractName": "Example Contract 2",
+      "navisionCode": "NavCode1",
+      "addressLine1": "62 Circular Road",
+      "addressLine2": "IM11AE",
+      "addressLine3": "",
+      "addressLine4": "",
+      "addressLine5": "",
+      "addressLine6": "",
       "vaT_Number": "llwdklg",
-      "fromDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
-      "toDate": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)",
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
       "rowIsCurrent": 1,
       "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    },
+    {
+      "id": 3,
+      "contractKey": 3,
+      "contractTypeName": "Progressive",
+      "contractTypeKey": 790,
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 873,
+      "summary_BillingCurrencyKey": 295,
+      "operatorBillingKey": 456,
+      "contractCollectionKey": 107,
+      "contractGroupName": "Contract Example Group",
+      "contractName": "Example Contract 3",
+      "navisionCode": "NavCode1",
+      "addressLine1": "62 Circular Road",
+      "addressLine2": "IM11AE",
+      "addressLine3": "",
+      "addressLine4": "",
+      "addressLine5": "",
+      "addressLine6": "",
+      "vaT_Number": "llwdklg",
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "rowIsCurrent": 1,
+      "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    },
+    {
+      "id": 4,
+      "contractKey": 4,
+      "contractTypeName": "Progressive",
+      "contractTypeKey": 790,
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 873,
+      "summary_BillingCurrencyKey": 295,
+      "operatorBillingKey": 456,
+      "contractCollectionKey": 107,
+      "contractGroupName": "Contract Example Group",
+      "contractName": "Example Contract 4",
+      "navisionCode": "NavCode1",
+      "addressLine1": "62 Circular Road",
+      "addressLine2": "IM11AE",
+      "addressLine3": "",
+      "addressLine4": "",
+      "addressLine5": "",
+      "addressLine6": "",
+      "vaT_Number": "llwdklg",
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "rowIsCurrent": 1,
+      "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    },
+    {
+      "id": 5,
+      "contractKey": 5,
+      "contractTypeName": "Progressive",
+      "contractTypeKey": 790,
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 873,
+      "summary_BillingCurrencyKey": 295,
+      "operatorBillingKey": 456,
+      "contractCollectionKey": 107,
+      "contractGroupName": "Contract Example Group",
+      "contractName": "Example Contract 5",
+      "navisionCode": "NavCode1",
+      "addressLine1": "62 Circular Road",
+      "addressLine2": "IM11AE",
+      "addressLine3": "",
+      "addressLine4": "",
+      "addressLine5": "",
+      "addressLine6": "",
+      "vaT_Number": "llwdklg",
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "rowIsCurrent": 1,
+      "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    },
+    {
+      "id": 6,
+      "contractKey": 6,
+      "contractTypeName": "Progressive",
+      "contractTypeKey": 790,
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 873,
+      "summary_BillingCurrencyKey": 295,
+      "operatorBillingKey": 456,
+      "contractCollectionKey": 107,
+      "contractGroupName": "Contract Example Group",
+      "contractName": "Example Contract 6",
+      "navisionCode": "NavCode1",
+      "addressLine1": "62 Circular Road",
+      "addressLine2": "IM11AE",
+      "addressLine3": "",
+      "addressLine4": "",
+      "addressLine5": "",
+      "addressLine6": "",
+      "vaT_Number": "llwdklg",
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "rowIsCurrent": 1,
+      "loadedOn": "Thu May 25 2023 12:48:29 GMT+0100 (GMT+01:00)"
+    },
+    {
+      "details": {
+        "key": 1,
+        "name": "Example Contract 1",
+        "typeKey": 790,
+        "groupKey": 1,
+        "groupName": "Contract Example Group",
+        "licensorKey": 1,
+        "licenseeKey": 2,
+        "billingCurrencyKey": 1,
+        "operatorBillingKey": 1,
+        "currencyKey": 1,
+        "summaryCurrencyKey": 1,
+        "collectionKey": 1,
+        "fromDate": "2023-05-23",
+        "toDate": "2023-05-26",
+        "address": {
+          "line1": "62 Circular Road",
+          "line2": "3rd Floor",
+          "line3": "Example Address Line 3",
+          "line4": "Example Address Line 4",
+          "line5": "Example Address Line 5",
+          "line6": "Example Address Line 6",
+          "postCode": "IM11AE"
+        },
+        "vatNumber": "VAT789",
+        "navisionCode": "NavCode1"
+      },
+      "revenueClauses": [
+        {
+          "clauseKey": 1,
+          "clauseName": "Revenue Clause 1",
+          "clause_Description": "Example Revenue Clause 1",
+          "loadedOn": "2023-01-01",
+          "lineNumber": "789",
+          "thresholdLower": "78",
+          "thresholdUpper": "789",
+          "precedence": "789",
+          "amount": "789",
+          "calcValue": "789"
+        }
+      ],
+      "deductionClauses": [
+        {
+          "clauseKey": 2,
+          "clauseName": "Deduction Clause 1",
+          "clause_Description": "Example Deduction Clause 1890",
+          "loadedOn": "2023-01-01",
+          "lineNumber": "890",
+          "thresholdLower": "890",
+          "thresholdUpper": "890",
+          "precedence": "890",
+          "amount": "89",
+          "calcValue": "890",
+          "fromDate": "Sun Jun 04 2023",
+          "toDate": "Sun Jun 04 2023",
+          "reportingDate": "Sun Jun 04 2023"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "key": 1,
+      "name": "Example Contract 1",
+      "typeKey": 790,
+      "groupKey": 1,
+      "groupName": "Contract Example Group",
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 1,
+      "operatorBillingKey": 1,
+      "summaryCurrencyKey": 1,
+      "currencyKey": 1,
+      "collectionKey": 1,
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "vatNumber": "VAT789",
+      "navisionCode": "NavCode1",
+      "address": {
+        "line1": "62 Circular Road",
+        "line2": "3rd Floor",
+        "line3": "Example Address Line 3",
+        "line4": "Example Address Line 4",
+        "line5": "Example Address Line 5",
+        "line6": "Example Address Line 6",
+        "postCode": "IM11AE"
+      },
+      "clauses": [
+        {
+          "clauseKey": 1,
+          "clauseName": "Revenue Clause 1",
+          "clause_Description": "Example Revenue Clause 1",
+          "loadedOn": "2023-01-01",
+          "lineNumber": "789",
+          "thresholdLower": "98798",
+          "thresholdUpper": "7987",
+          "precedence": "7897",
+          "amount": "897",
+          "calcValue": "8979"
+        },
+        {
+          "clauseKey": 2,
+          "clauseName": "Deduction Clause 1",
+          "clause_Description": "Example Deduction Clause 10",
+          "loadedOn": "2023-01-01",
+          "lineNumber": "89",
+          "thresholdLower": "8098",
+          "thresholdUpper": "89",
+          "precedence": "90809",
+          "amount": "809",
+          "calcValue": "8908",
+          "fromDate": "Sun Jun 04 2023",
+          "toDate": "Sun Jun 04 2023",
+          "reportingDate": "Sun Jun 04 2023"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "key": 1,
+      "name": "Example Contract 1",
+      "typeKey": 790,
+      "groupKey": 1,
+      "groupName": "Contract Example Group",
+      "licensorKey": 1,
+      "licenseeKey": 2,
+      "billingCurrencyKey": 1,
+      "operatorBillingKey": 1,
+      "summaryCurrencyKey": 1,
+      "currencyKey": 1,
+      "collectionKey": 1,
+      "fromDate": "2023-05-23",
+      "toDate": "2023-05-26",
+      "vatNumber": "VAT789",
+      "navisionCode": "NavCode1",
+      "address": {
+        "line1": "62 Circular Road",
+        "line2": "3rd Floor",
+        "line3": "Example Address Line 3",
+        "line4": "Example Address Line 4",
+        "line5": "Example Address Line 5",
+        "line6": "Example Address Line 6",
+        "postCode": "IM11AE"
+      },
+      "clauses": [
+        {
+          "clauseKey": 1,
+          "clauseName": "Revenue Clause 1",
+          "clause_Description": "Example Revenue Clause 1",
+          "loadedOn": "2023-01-01",
+          "lineNumber": "87789",
+          "thresholdLower": "89798",
+          "thresholdUpper": "7",
+          "precedence": "789",
+          "amount": "789",
+          "calcValue": "7987"
+        },
+        {
+          "clauseKey": 2,
+          "clauseName": "Deduction Clause 1",
+          "clause_Description": "Example Deduction Clause 1098",
+          "loadedOn": "2023-01-01",
+          "lineNumber": "89",
+          "thresholdLower": "8908",
+          "thresholdUpper": "9890",
+          "precedence": "908",
+          "amount": "09890",
+          "calcValue": "8098",
+          "fromDate": "Sun Jun 04 2023",
+          "toDate": "Sun Jun 04 2023",
+          "reportingDate": "Sun Jun 04 2023"
+        }
+      ],
+      "id": 9
     }
   ],
   "licensees": [
@@ -120,6 +431,148 @@
         "ibanNumber": "Licensor 2 Banking IBAN",
         "accountCurrency": "Licensor 2 Banking Account Currency"
       }
+    }
+  ],
+  "audit": [
+    {
+      "id": 0,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 0",
+      "changedValue": "new value 0"
+    },
+    {
+      "id": 1,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 1",
+      "changedValue": "new value 1"
+    },
+    {
+      "id": 2,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 2",
+      "changedValue": "new value 2"
+    },
+    {
+      "id": 3,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 3",
+      "changedValue": "new value 3"
+    },
+    {
+      "id": 4,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 4",
+      "changedValue": "new value 4"
+    },
+    {
+      "id": 5,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 5",
+      "changedValue": "new value 5"
+    },
+    {
+      "id": 6,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 6",
+      "changedValue": "new value 6"
+    },
+    {
+      "id": 7,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 7",
+      "changedValue": "new value 7"
+    },
+    {
+      "id": 8,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 8",
+      "changedValue": "new value 8"
+    },
+    {
+      "id": 9,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 9",
+      "changedValue": "new value 9"
+    },
+    {
+      "id": 0,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 0",
+      "changedValue": "new value 0"
+    },
+    {
+      "id": 1,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 1",
+      "changedValue": "new value 1"
+    },
+    {
+      "id": 2,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 2",
+      "changedValue": "new value 2"
+    },
+    {
+      "id": 3,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 3",
+      "changedValue": "new value 3"
+    },
+    {
+      "id": 4,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 4",
+      "changedValue": "new value 4"
+    },
+    {
+      "id": 5,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 5",
+      "changedValue": "new value 5"
+    },
+    {
+      "id": 6,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 6",
+      "changedValue": "new value 6"
+    },
+    {
+      "id": 7,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 7",
+      "changedValue": "new value 7"
+    },
+    {
+      "id": 8,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 8",
+      "changedValue": "new value 8"
+    },
+    {
+      "id": 9,
+      "timestamp": "0001-01-01T00:00:00",
+      "user": "CraigWG",
+      "previousValue": "old value 9",
+      "changedValue": "new value 9"
     }
   ],
   "clauses": [
